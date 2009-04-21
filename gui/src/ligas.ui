@@ -1,7 +1,8 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>Ligas</class>
- <widget class="QWidget" name="Ligas" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Ligas">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -9,83 +10,62 @@
     <height>550</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Form</string>
   </property>
-  <property name="autoFillBackground" >
+  <property name="autoFillBackground">
    <bool>false</bool>
   </property>
-  <widget class="QWidget" name="formLayoutWidget" >
-   <property name="geometry" >
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
     <rect>
      <x>400</x>
      <y>10</y>
      <width>341</width>
-     <height>101</height>
+     <height>65</height>
     </rect>
    </property>
-   <layout class="QFormLayout" name="formLayout" >
-    <item row="0" column="0" >
-     <widget class="QLabel" name="label" >
-      <property name="text" >
+   <layout class="QFormLayout" name="formLayout">
+    <property name="fieldGrowthPolicy">
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
        <string>Nombre: </string>
       </property>
      </widget>
     </item>
-    <item row="1" column="0" >
-     <widget class="QLabel" name="label_2" >
-      <property name="text" >
-       <string>Fecha inicio: </string>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Número de grupos: </string>
       </property>
      </widget>
     </item>
-    <item row="0" column="1" >
-     <widget class="QLineEdit" name="lineEdit" />
-    </item>
-    <item row="1" column="1" >
-     <widget class="QDateEdit" name="dt_fecha_inicio" >
-      <property name="layoutDirection" >
-       <enum>Qt::LeftToRight</enum>
-      </property>
-      <property name="calendarPopup" >
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0" >
-     <widget class="QLabel" name="label_3" >
-      <property name="text" >
-       <string>Fecha final:</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1" >
-     <widget class="QDateEdit" name="dt_fecha_final" >
-      <property name="layoutDirection" >
-       <enum>Qt::LeftToRight</enum>
-      </property>
-      <property name="calendarPopup" >
-       <bool>true</bool>
-      </property>
-     </widget>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="combo_grupos"/>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="btn_agregar" >
-   <property name="geometry" >
+  <widget class="QPushButton" name="btn_agregar">
+   <property name="geometry">
     <rect>
      <x>660</x>
-     <y>120</y>
+     <y>80</y>
      <width>80</width>
      <height>28</height>
     </rect>
    </property>
-   <property name="text" >
+   <property name="text">
     <string>Añadir</string>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tabla_ligas" >
-   <property name="geometry" >
+  <widget class="QTableWidget" name="tabla_ligas">
+   <property name="geometry">
     <rect>
      <x>10</x>
      <y>10</y>
@@ -94,26 +74,26 @@
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="" >
-   <property name="geometry" >
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
     <rect>
      <x>180</x>
      <y>500</y>
-     <width>168</width>
+     <width>178</width>
      <height>41</height>
     </rect>
    </property>
-   <layout class="QGridLayout" name="gridLayout" >
-    <item row="0" column="0" >
-     <widget class="QPushButton" name="btn_editar" >
-      <property name="text" >
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btn_editar">
+      <property name="text">
        <string>Editar</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="1" >
-     <widget class="QPushButton" name="btn_eliminar" >
-      <property name="text" >
+    <item row="0" column="1">
+     <widget class="QPushButton" name="btn_eliminar">
+      <property name="text">
        <string>Eliminar</string>
       </property>
      </widget>

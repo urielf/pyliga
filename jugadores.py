@@ -15,4 +15,4 @@ class Jugadores(QWidget, Ui_Jugadores):
         #Poner la cabecera a la tabla
         self.tabla_jugadores.setColumnCount(3)
         self.tabla_jugadores.setHorizontalHeaderLabels([
-            'Nombre', 'Goles', 'Edad', ]) 
+            'Nombre', 'Goles', 'Equipo', ])

@@ -13,7 +13,6 @@ class Equipos(QWidget, Ui_Equipos):
         self.show()
         
         #Poner la cabecera a la tabla
-        self.tabla_equipos.setColumnCount(8)
+        self.tabla_equipos.setColumnCount(2)
         self.tabla_equipos.setHorizontalHeaderLabels([
-            'Equipo', 'Diferencia', 'Puntos', 'Jornadas', 
-            'G. Favor', 'G. Contra', 'Contacto', u'Teléfono'])
+            'Equipo', 'Grupo' ])

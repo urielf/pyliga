@@ -15,8 +15,5 @@ class Ligas(QWidget, Ui_Ligas):
         self.tabla_ligas.setColumnCount(2)
         self.tabla_ligas.setHorizontalHeaderLabels(['Liga', 'Jornadas'])
         
-        #Colocar la fecha actual a los date edit
-        self.dt_fecha_inicio.setDisplayFormat(u'dd/MM/yyyy')
-        self.dt_fecha_inicio.setDate(QDate().currentDate())
-        self.dt_fecha_final.setDisplayFormat(u'dd/MM/yyyy')
-        self.dt_fecha_final.setDate(QDate().currentDate())
+        #Agregamos 5 grupos al comboBox
+        self.combo_grupos
