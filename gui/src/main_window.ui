@@ -1,0 +1,72 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Administrar Ligas</string>
+  </property>
+  <widget class="QWidget" name="centralwidget" />
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuLigas" >
+    <property name="title" >
+     <string>&amp;Ligas</string>
+    </property>
+    <addaction name="menu_admin_ligas" />
+    <addaction name="nueva_jornada" />
+   </widget>
+   <widget class="QMenu" name="menuEquipos" >
+    <property name="title" >
+     <string>&amp;Equipos</string>
+    </property>
+    <addaction name="menu_admin_equipos" />
+   </widget>
+   <widget class="QMenu" name="menuJugadores" >
+    <property name="title" >
+     <string>&amp;Jugadores</string>
+    </property>
+    <addaction name="menu_admin_jugadores" />
+   </widget>
+   <addaction name="menuLigas" />
+   <addaction name="menuEquipos" />
+   <addaction name="menuJugadores" />
+  </widget>
+  <widget class="QStatusBar" name="statusbar" />
+  <action name="menu_admin_ligas" >
+   <property name="text" >
+    <string>Administrar Ligas</string>
+   </property>
+  </action>
+  <action name="nueva_jornada" >
+   <property name="text" >
+    <string>Nueva Jornada</string>
+   </property>
+  </action>
+  <action name="menu_admin_equipos" >
+   <property name="text" >
+    <string>Administrar Equipos</string>
+   </property>
+  </action>
+  <action name="menu_admin_jugadores" >
+   <property name="text" >
+    <string>Administrar Jugadores</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

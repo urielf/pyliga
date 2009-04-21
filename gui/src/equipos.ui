@@ -1,0 +1,149 @@
+<ui version="4.0" >
+ <class>Equipos</class>
+ <widget class="QWidget" name="Equipos" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout" >
+    <property name="fieldGrowthPolicy" >
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label" >
+      <property name="text" >
+       <string>Liga: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QComboBox" name="comboBox" />
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tabla_equipos" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>531</width>
+     <height>501</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2" >
+   <property name="geometry" >
+    <rect>
+     <x>540</x>
+     <y>40</y>
+     <width>251</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2" >
+    <property name="fieldGrowthPolicy" >
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label_2" >
+      <property name="text" >
+       <string>Nombre: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QLineEdit" name="lineEdit" />
+    </item>
+    <item row="1" column="0" >
+     <widget class="QLabel" name="label_3" >
+      <property name="text" >
+       <string>Contacto: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" >
+     <widget class="QLabel" name="label_4" >
+      <property name="text" >
+       <string>Teléfono: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" >
+     <widget class="QLineEdit" name="lineEdit_2" />
+    </item>
+    <item row="2" column="1" >
+     <widget class="QLineEdit" name="lineEdit_3" />
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton" >
+   <property name="geometry" >
+    <rect>
+     <x>700</x>
+     <y>150</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="layoutDirection" >
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground" >
+    <bool>false</bool>
+   </property>
+   <property name="text" >
+    <string>Añadir</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="" >
+   <property name="geometry" >
+    <rect>
+     <x>551</x>
+     <y>471</y>
+     <width>82</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" >
+    <item row="0" column="0" >
+     <widget class="QPushButton" name="pushButton_2" >
+      <property name="text" >
+       <string>Editar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" >
+     <widget class="QPushButton" name="pushButton_4" >
+      <property name="text" >
+       <string>Eliminar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

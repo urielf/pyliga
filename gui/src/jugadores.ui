@@ -1,0 +1,143 @@
+<ui version="4.0" >
+ <class>Jugadores</class>
+ <widget class="QWidget" name="Jugadores" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" >
+    <item row="0" column="1" >
+     <widget class="QComboBox" name="comboBox" />
+    </item>
+    <item row="0" column="4" >
+     <widget class="QComboBox" name="comboBox_2" />
+    </item>
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label" >
+      <property name="sizePolicy" >
+       <sizepolicy vsizetype="Preferred" hsizetype="Fixed" >
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text" >
+       <string>Liga: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" >
+     <widget class="QLabel" name="label_2" >
+      <property name="sizePolicy" >
+       <sizepolicy vsizetype="Preferred" hsizetype="Maximum" >
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text" >
+       <string>Equipo:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tabla_jugadores" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>421</width>
+     <height>461</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>480</x>
+     <y>50</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout" >
+    <item row="0" column="0" >
+     <widget class="QLabel" name="label_3" >
+      <property name="text" >
+       <string>Nombre: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" >
+     <widget class="QLabel" name="label_4" >
+      <property name="text" >
+       <string>Edad: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QLineEdit" name="lineEdit" />
+    </item>
+    <item row="1" column="1" >
+     <widget class="QLineEdit" name="lineEdit_2" />
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3" >
+   <property name="geometry" >
+    <rect>
+     <x>670</x>
+     <y>120</y>
+     <width>80</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text" >
+    <string>Añadir</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="" >
+   <property name="geometry" >
+    <rect>
+     <x>260</x>
+     <y>509</y>
+     <width>168</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2" >
+    <item row="0" column="0" >
+     <widget class="QPushButton" name="pushButton" >
+      <property name="text" >
+       <string>Editar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" >
+     <widget class="QPushButton" name="pushButton_2" >
+      <property name="text" >
+       <string>Eliminar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
